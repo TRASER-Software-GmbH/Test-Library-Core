@@ -4,5 +4,9 @@
     "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
     "githubRunner": "self-hosted",
     "gitHubRunnerShell": "pwsh",
+    "alwaysBuildAllProjects": true,
+    "useCompilerFolder": true,
+    "trustMicrosoftNuGetFeeds": true,
+    "doNotPublishApps": true,
     "runs-on": "[ ubuntu-latest ]"
 }
