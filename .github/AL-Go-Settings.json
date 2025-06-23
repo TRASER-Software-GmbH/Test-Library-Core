@@ -1,5 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/TRASER-Software-GmbH/AL-Go-Actions/v7.2/settings.schema.json",
   "type": "AppSource App",
-  "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main"
+  "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
+  "gitHubRunner": "[ self-hosted, windows ]",
+  "gitHubRunnerShell": "powershell"
 }
