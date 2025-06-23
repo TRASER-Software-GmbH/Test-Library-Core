@@ -1,7 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TRASER-Software-GmbH/AL-Go-Actions/v7.2/settings.schema.json",
-  "type": "AppSource App",
-"templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
-"gitHubRunnerShell": "pwsh",
-"runs-on": "[self-hosted, windows]"
+    "$schema": "https://raw.githubusercontent.com/TRASER-Software-GmbH/AL-Go-Actions/v7.2/settings.schema.json",
+    "type": "AppSource App",
+    "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
+    "gitHubRunnerShell": "pwsh",
+    "runs-on": "[ self-hosted ]"
 }
