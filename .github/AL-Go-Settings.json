@@ -3,6 +3,6 @@
     "type": "AppSource App",
     "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
     "githubRunner": "self-hosted",
-    "gitHubRunnerShell": "powershell",
+    "gitHubRunnerShell": "pwsh",
     "runs-on": "[ ubuntu-latest ]"
 }
