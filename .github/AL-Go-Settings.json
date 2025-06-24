@@ -8,17 +8,5 @@
     "useCompilerFolder": true,
     "trustMicrosoftNuGetFeeds": true,
     "doNotPublishApps": true,
-    "runs-on": "[ ubuntu-latest ]",
-    "deliveryTargets": [
-        {
-            "name": "GitHubPackages",
-            "type": "GitHubPackages",
-            "owner": "TRASER-Software-GmbH",
-            "packageName": "TRASER-Core-Library",
-            "branches": [
-                "main",
-                "staging"
-            ]
-        }
-    ]
+    "runs-on": "[ ubuntu-latest ]"
 }
