@@ -9,4 +9,9 @@ codeunit 50100 "TRASER Hello World"
     begin
         exit('1.0.0.0');
     end;
+
+    procedure TestBuildOrderJsonFix(): Text
+    begin
+        exit('Testing secret detection fix');
+    end;
 }
