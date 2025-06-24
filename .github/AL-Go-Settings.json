@@ -2,8 +2,5 @@
     "type": "AppSource App",
     "runs-on": "self-hosted",
     "useCompilerFolder": true,
-    "doNotPublishApps": true,
-    "DeliverToGitHubPackages": {
-        "branches": ["main", "staging"]
-    }
+    "doNotPublishApps": true
 }
