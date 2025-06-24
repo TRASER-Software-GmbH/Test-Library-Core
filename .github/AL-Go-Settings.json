@@ -2,15 +2,13 @@
     "$schema": "https://raw.githubusercontent.com/TRASER-Software-GmbH/AL-Go-Actions/v7.2/settings.schema.json",
     "type": "AppSource App",
     "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
-    "githubRunner": "self-hosted",
+    "runs-on": "self-hosted",
     "gitHubRunnerShell": "pwsh",
     "alwaysBuildAllProjects": true,
     "useCompilerFolder": true,
     "trustMicrosoftNuGetFeeds": true,
     "doNotPublishApps": true,
-    "runs-on": "[ ubuntu-latest ]",
     "DeliverToGitHubPackages": {
         "branches": ["main", "staging"]
-    },
-    "testComment": "Testing GitHubPackagesContext with proper JSON structure"
+    }
 }
