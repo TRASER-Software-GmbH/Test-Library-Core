@@ -1,7 +1,7 @@
 {
     "type": "AppSource App",
     "templateUrl": "https://github.com/TRASER-Software-GmbH/AL-Go-AppSource@main",
-    "runs-on": "self-hosted",
+    "githubRunner": "self-hosted",
     "useCompilerFolder": true,
     "doNotPublishApps": true,
     "DeliverToGitHubPackages": {
