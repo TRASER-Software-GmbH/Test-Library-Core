@@ -184,7 +184,7 @@ jobs:
     secrets: inherit
     with:
       shell: ${{ matrix.githubRunnerShell }}
-      runsOn: ${{ format('["{0}"]', matrix.gitHubRunnerRaw) }}
+      runsOn: ${{ matrix.githubRunner }}
       project: ${{ matrix.project }}
       projectName: ${{ matrix.projectName }}
       buildMode: ${{ matrix.buildMode }}
