@@ -7,7 +7,7 @@
     "alwaysBuildAllProjects": true,
     "useCompilerFolder": true,
     "trustMicrosoftNuGetFeeds": true,
-    "doNotPublishApps": false,
+    "doNotPublishApps": true,
     "runs-on": "[ ubuntu-latest ]",
     "deliveryTargets": [
         {
@@ -15,7 +15,10 @@
             "type": "GitHubPackages",
             "owner": "TRASER-Software-GmbH",
             "packageName": "TRASER-Core-Library",
-            "branches": ["main", "staging"]
+            "branches": [
+                "main",
+                "staging"
+            ]
         }
     ]
 }
