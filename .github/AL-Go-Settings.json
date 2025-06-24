@@ -11,5 +11,6 @@
     "runs-on": "[ ubuntu-latest ]",
     "DeliverToGitHubPackages": {
         "branches": ["main", "staging"]
-    }
+    },
+    "testComment": "Testing GitHubPackagesContext secret"
 }
