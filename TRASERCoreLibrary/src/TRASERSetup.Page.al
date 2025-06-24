@@ -1,7 +1,7 @@
 /// <summary>
 /// Setup page for TRASER Core Library configuration
 /// </summary>
-page 70001 "TRASER Setup"
+page 5445557 "TRASER Setup"
 {
     Caption = 'TRASER Setup';
     PageType = Card;

@@ -1,7 +1,7 @@
 /// <summary>
 /// Core utilities codeunit providing common functionality for TRASER applications
 /// </summary>
-codeunit 70001 "TRASER Core Utilities"
+codeunit 5445557 "TRASER Core Utilities"
 {
     Access = Public;
 

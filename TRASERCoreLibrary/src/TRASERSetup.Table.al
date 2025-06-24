@@ -1,7 +1,7 @@
 /// <summary>
 /// TRASER Setup table for storing configuration settings
 /// </summary>
-table 70001 "TRASER Setup"
+table 5445557 "TRASER Setup"
 {
     Caption = 'TRASER Setup';
     DataClassification = SystemMetadata;

@@ -5,35 +5,33 @@
   "version": "1.0.0.0",
   "brief": "Core library providing fundamental functionality for TRASER applications",
   "description": "This library contains core utilities, helper functions, and shared components used across multiple TRASER Business Central applications.",
-  "privacyStatement": "https://www.traser.com/privacy",
-  "EULA": "https://www.traser.com/eula",
-  "help": "https://docs.traser.com/core-library",
-  "url": "https://www.traser.com",
-  "logo": "https://www.traser.com/logo.png",
-  "dependencies": [
-    {
-      "id": "63ca2fa4-4f03-4f2b-a480-172fdf340d3f",
-      "name": "Base Application",
-      "publisher": "Microsoft",
-      "version": "24.0.0.0"
-    },
-    {
-      "id": "e3d1b010-7f32-4370-9d80-0cb7e304b6f0",
-      "name": "System Application",
-      "publisher": "Microsoft",
-      "version": "24.0.0.0"
-    }
-  ],
-  "screenshots": [],
+  "privacyStatement": "https://traser-software.de/en/datenschutzerklaerung/",
+  "EULA": "https://traser-software.de/en/general-terms-conditions/",
+  "help": "https://docs.traser-software.de/{0}/dms/business-central/",
+  "logo": "png_core_logo_icon.png",
+  "url": "http://www.traser-software.de/",
   "platform": "24.0.0.0",
-  "application": "24.0.0.0",
+  "application": "24.2.0.0",
+  "dependencies": [],
   "idRanges": [
     {
-      "from": 70000,
-      "to": 70999
+      "from": 5445557,
+      "to": 5445557
     }
   ],
-  "contextSensitiveHelpUrl": "https://docs.traser.com/core-library/help",
-  "showMyCode": true,
-  "runtime": "12.0"
+  "supportedLocales": [
+    "de-DE",
+    "en-US"
+  ],
+  "features": [
+    "TranslationFile"
+  ],
+  "contextSensitiveHelpUrl": "https://docs.traser-software.de/{0}/dms/business-central/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "13.0",
+  "target": "Cloud"
 }
