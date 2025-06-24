@@ -5,11 +5,11 @@
   "version": "1.0.0.0",
   "brief": "Core library providing fundamental functionality for TRASER applications",
   "description": "This library contains core utilities, helper functions, and shared components used across multiple TRASER Business Central applications.",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "privacyStatement": "https://www.traser.com/privacy",
+  "EULA": "https://www.traser.com/eula",
+  "help": "https://docs.traser.com/core-library",
+  "url": "https://www.traser.com",
+  "logo": "https://www.traser.com/logo.png",
   "dependencies": [
     {
       "id": "63ca2fa4-4f03-4f2b-a480-172fdf340d3f",
@@ -33,7 +33,7 @@
       "to": 70999
     }
   ],
-  "contextSensitiveHelpUrl": "",
+  "contextSensitiveHelpUrl": "https://docs.traser.com/core-library/help",
   "showMyCode": true,
   "runtime": "12.0"
 }
