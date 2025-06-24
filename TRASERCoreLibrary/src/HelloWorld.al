@@ -1,4 +1,4 @@
-codeunit 50100 "TRASER Hello World"
+codeunit 5445557 "TRASER Hello World"
 {
     procedure SayHello(): Text
     begin
