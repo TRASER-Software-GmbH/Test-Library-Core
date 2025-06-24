@@ -12,5 +12,5 @@
     "DeliverToGitHubPackages": {
         "branches": ["main", "staging"]
     },
-    "testComment": "Testing GitHubPackagesContext secret"
+    "testComment": "Testing GitHubPackagesContext with proper JSON structure"
 }
