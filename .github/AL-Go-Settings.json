@@ -8,5 +8,8 @@
     "useCompilerFolder": true,
     "trustMicrosoftNuGetFeeds": true,
     "doNotPublishApps": true,
-    "runs-on": "[ ubuntu-latest ]"
+    "runs-on": "[ ubuntu-latest ]",
+    "DeliverToGitHubPackages": {
+        "branches": ["main", "staging"]
+    }
 }
